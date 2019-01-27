@@ -1,6 +1,22 @@
 {
   "name": "@ianwalter/execa-helper",
   "description": "An AVA helper that makes it easier to test CLIs using Execa",
+  "version": "0.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ianwalter/execa-helper.git"
+  },
+  "keywords": [
+    "ava",
+    "execa",
+    "helper"
+  ],
+  "author": "Ian Walter <public@iankwalter.com> (https://iankwalter.com)",
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/ianwalter/execa-helper/issues"
+  },
+  "homepage": "https://github.com/ianwalter/execa-helper#readme",
   "module": "dist/execa-helper.m.js",
   "main": "dist/execa-helper.js",
   "scripts": {
