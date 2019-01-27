@@ -1,0 +1,30 @@
+#!/usr/bin/env node
+
+const meow = require('meow')
+
+const cli = meow(
+  `
+    Usage
+      $ cli <options>
+
+    Options
+      --from, -f      Author of the greeting
+      --greeting, -g  Output a greeting
+
+    Examples
+      $ cli --from Ian --greeting Hello World!
+      [Ian]: Hello World!
+  `,
+  {
+    flags: {
+      from: { type: 'string', alias: 'f' },
+      greeting: { type: 'string', alias: 'g' }
+    }
+  }
+)
+
+if (!cli.flags.from) {
+  console.error('No author specified!')
+}
+
+console.log(`[${cli.flags.from}]: ${cli.flags.greeting}`)
