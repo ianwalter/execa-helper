@@ -4,7 +4,7 @@
   "module": "dist/execa-helper.m.js",
   "main": "dist/execa-helper.js",
   "scripts": {
-    "lint": "eslint index.js test.js",
+    "lint": "eslint index.js test",
     "pretest": "dist",
     "test": "ava"
   },
