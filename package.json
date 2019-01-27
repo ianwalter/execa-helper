@@ -1,7 +1,7 @@
 {
   "name": "@ianwalter/execa-helper",
   "description": "An AVA helper that makes it easier to test CLIs using Execa",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ianwalter/execa-helper.git"
